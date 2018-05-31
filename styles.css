@@ -1,10 +1,13 @@
+body {
+  margin: 0px;
+}
+
 #navbar {
   position: fixed;
   display: flex;
   width: 100%;
-  top: 0;
-  left: 0;
   background-color: #8197AC;
+  opacity: 0.9;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -17,10 +20,11 @@
   display: flex;
   justify-content: space-around;
   max-width: 500px;
+  padding-left: 0px;
 }
 
 #logo {
-  font-size: 30px;
+  font-size: 1.6em;
 }
 
 a {
@@ -31,18 +35,18 @@ a {
 
 h1 {
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 3.15em;
   margin: 40px 0px 20px 0px;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 1.30em;
 }
 
 #featuredwork {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 1.5em;
   background-color: #E5EDF6;
   color: #8197AC;
   text-align: center;
@@ -103,8 +107,8 @@ footer {
 
 .mediaicons {
   text-align: center;
-  font-size: 30px;
-  padding: 0px 50px 0px 0px;
+  font-size: 2.0em;
+  padding: 20px 50px 20px 0px;
   list-style-type: none;
   display: inline-block;
 }
