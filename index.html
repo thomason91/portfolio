@@ -16,8 +16,8 @@
       <ul id="navlist">
         <li class="fas fa-anchor" id="logo"></li>
         <li class="navlinks"><a href="https://athomason.netlify.com/">Home</a></li>
-        <li class="navlinks"><a href="#">About</a></li>
-        <li class="navlinks"><a href="#">Contact</a></li>
+        <li class="navlinks"><a href="#about_me">About</a></li>
+        <li class="navlinks"><a href="#contact_me">Contact</a></li>
       </ul>
     </nav>
     
@@ -33,7 +33,7 @@
       <p>Featured Work</p>
     </div> 
   
-    <section class="flex-container">
+    <section class="projects">
       <div class="portfolio-links" id="project1">
         <a href="https://codepen.io/athomason/pen/GGgMLm"><img class="link" src="pixelartmaker.jpg" alt="Pixel Art Maker Image"><h4 class="project-titles">Pixel Art Maker</h4></a>
       </div>
@@ -43,6 +43,27 @@
       <div class="portfolio-links" id="project3"><a href="https://github.com/thomason91/memory-game">
         <img class="link" src="memorygame.jpg" alt="Memory Game Image"><h4 class="project-titles">Memory Game</h4></a>
       </div>
+    </section>
+    
+    <section id="about">   
+      <a name="about_me"></a>
+      <div class="aboutTitle">
+        <h2 id="aboutHeader">About Me</h2>
+      </div>
+      <div id="angela-info">
+        <p>Hi! I'm Angela, a web designer and developer based in the Charleston, SC area. I love creating things and am always up for a challenge. When I'm not working or programming, I spend most of my free time with my amazing husband and adorable dog.</p>
+      </div>
+    </section>
+      
+    <section id="contact">
+        <a name="contact_me"></a>
+        <h2 id="contactHeader">Contact</h2>
+            <form action="https://formspree.io/angela.thomason91@gmail.com" method="POST">
+				<input class="formName" type="text" name="name" placeholder="Name" required>
+				<input class="formEmail"  type="email" name="_replyto" placeholder="Email" required>
+				<textarea class="formText" name="message" placeholder="Message" required></textarea>
+				<input class="submitButton" type="submit" value="SUBMIT">
+            </form>
     </section>
 
     <footer id="footer">
